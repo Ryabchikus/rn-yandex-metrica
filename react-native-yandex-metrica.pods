@@ -5,7 +5,7 @@ ios_root = 'ios/RCTYandexMetrica'
 ymlib_root = ios_root+'/yandex-metrica-lib'
 
 Pod::Spec.new do |s|
-  s.name         = "react-native-yandex-metrica"
+  s.name         = "rn-yandex-metrica"
   s.version      = package["version"]
   s.summary      = package["description"]
   s.author       = "Soothsayer"
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license      = package["license"]
   s.platform     = :ios, "7.0"
 
-  s.source       = { :git => "https://github.com/sooth-sayer/react-native-yandex-metrica", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/voroncv/rn-yandex-metrica", :tag => "#{s.version}" }
   s.default_subspec = 'Core'
 
   s.subspec 'Core' do |ss|
