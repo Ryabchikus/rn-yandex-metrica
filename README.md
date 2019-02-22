@@ -4,16 +4,16 @@ YandexMobileMetricaBridge
 
 ## Installation and linking libraries
 
-* Install with npm: `npm install --save react-native-yandex-metrica`
-  Or, install with yarn: `yarn add react-native-yandex-metrica`
+* Install with npm: `npm install --save rn-yandex-metrica`
+  Or, install with yarn: `yarn add rn-yandex-metrica`
 
-* Link with: `react-native link react-native-yandex-metrica`
+* Link with: `react-native link rn-yandex-metrica`
 
 ## Usage
 ```javascript
 import {
   YandexMetrica,
-} from 'react-native-yandex-metrica';
+} from 'rn-yandex-metrica';
 
 // The yandex metrica must be activated
 YandexMetrica.activateWithApiKey('app key');
