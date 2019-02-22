@@ -32,6 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param onFailure Block to be executed if an error occurs while reporting, the error is passed as block argument.
  */
 - (void)reportEvent:(NSString *)name
+         parameters:(nullable NSDictionary *)params
           onFailure:(nullable void (^)(NSError *error))onFailure;
 
 /** Reporting custom error messages.
