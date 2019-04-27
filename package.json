@@ -1,6 +1,6 @@
 {
   "name": "rn-yandex-metrica",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "React Native bridge for using native YandexMobileMetrica libraries on iOS and Android",
   "main": "./index.js",
   "scripts": {
