@@ -1,6 +1,6 @@
 {
   "name": "rn-yandex-metrica",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "React Native bridge for using native YandexMobileMetrica libraries on iOS and Android",
   "main": "./index.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/voroncv/rn-yandex-metrica.git"
+    "url": "git+https://github.com/Ryabchikus/rn-yandex-metrica.git"
   },
   "author": "Soothsayer",
   "license": "MIT",
   "bugs": {
     "url": ""
   },
-  "homepage": "",
+  "homepage": "https://github.com/sooth-sayer/react-native-yandex-metrica",
   "keywords": [
     "react",
     "native",
@@ -47,4 +47,3 @@
     }
   }
 }
-
