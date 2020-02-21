@@ -1,3 +1,6 @@
+ It's can be build under rn 0.61(зщвы file create and updated) but does not work(methods to native part returns undefined)
+temporary freezed
+
 YandexMobileMetricaBridge
 ============
 **Yandex Mobile Metrica Bridge** provides an interface to the native Yandex Mobile Metrica libraries on both **iOS** and **Android**.
